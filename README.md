@@ -12,23 +12,23 @@
 使用方法
 ===============
 
-  在 AppDelegate.m 中做初始化
-  #import "CLSpeechSynthesizer.h"
-  - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-  {
-    // 初始化合成器的后台播放
-    [CLSpeechSynthesizer initPlayback];
-    return YES;
-  }
-  
-  在其他页面中使用
-  #import "CLSpeechSynthesizer.h"
+    在 AppDelegate.m 中做初始化
+    #import "CLSpeechSynthesizer.h"
+    - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+    {
+      // 初始化合成器的后台播放
+      [CLSpeechSynthesizer initPlayback];
+      return YES;
+    }
     
-  // 播放语音
-  [CLSpeechSynthesizer playVoice:@"测试播放语音"];
-    
-  // 如需要设置播放语音的语言，则使用setLanguage，例：设置台湾音
-  [CLSpeechSynthesizer setLanguage:@"zh-TW"];
+    在其他页面中使用
+    #import "CLSpeechSynthesizer.h"
+      
+    // 播放语音
+    [CLSpeechSynthesizer playVoice:@"测试播放语音"];
+      
+    // 如需要设置播放语音的语言，则使用setLanguage，例：设置台湾音
+    [CLSpeechSynthesizer setLanguage:@"zh-TW"];
       
 
 详细的示例请参考代码。 <br />
