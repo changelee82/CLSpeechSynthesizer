@@ -11,7 +11,9 @@
 
 使用方法
 ===============
-
+    开启后台音频播放
+    工程 -> Capabilities -> Background Mode  开启 Audio, AirPlay and Picture in Picture
+    
     在 AppDelegate.m 中做初始化
     #import "CLSpeechSynthesizer.h"
     - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
