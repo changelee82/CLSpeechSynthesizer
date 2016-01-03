@@ -27,7 +27,7 @@
     // 播放语音
     [CLSpeechSynthesizer playVoice:@"测试播放语音"];
       
-    // 如需要设置播放语音的语言，则使用setLanguage，例：设置台湾音
+    // 默认的语音为普通话zh-CN，如需要设置播放语音的语言，则使用setLanguage，例：设置台湾音
     [CLSpeechSynthesizer setLanguage:@"zh-TW"];
       
 
