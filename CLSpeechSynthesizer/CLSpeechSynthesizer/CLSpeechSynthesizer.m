@@ -49,7 +49,7 @@
     }
     
     // 为了避免卡顿，先播放一次
-    [[self sharedInstance] playVoice:@""];
+    [[self sharedInstance] playVoice:@" "];
     
     return YES;
 }

@@ -23,7 +23,6 @@
     // 初始化合成器的后台播放
     [CLSpeechSynthesizer initPlayback];
 
-    
     return YES;
 }
 

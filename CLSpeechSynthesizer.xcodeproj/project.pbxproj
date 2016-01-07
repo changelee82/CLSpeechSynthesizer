@@ -14,6 +14,7 @@
 		9CBD63761C3810EF00CFE386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CBD63751C3810EF00CFE386 /* Assets.xcassets */; };
 		9CBD63791C3810EF00CFE386 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CBD63771C3810EF00CFE386 /* LaunchScreen.storyboard */; };
 		9CBD63831C38116000CFE386 /* CLSpeechSynthesizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBD63821C38116000CFE386 /* CLSpeechSynthesizer.m */; };
+		9CC1E0901C3E45FC00BB7007 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC1E08F1C3E45FC00BB7007 /* AVFoundation.framework */; };
 		9CEDF1D51C38C293005B68F1 /* 语言名称 in Resources */ = {isa = PBXBuildFile; fileRef = 9CEDF1D41C38C293005B68F1 /* 语言名称 */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		9CBD637A1C3810EF00CFE386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CBD63811C38116000CFE386 /* CLSpeechSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLSpeechSynthesizer.h; path = CLSpeechSynthesizer/CLSpeechSynthesizer.h; sourceTree = "<group>"; };
 		9CBD63821C38116000CFE386 /* CLSpeechSynthesizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLSpeechSynthesizer.m; path = CLSpeechSynthesizer/CLSpeechSynthesizer.m; sourceTree = "<group>"; };
+		9CC1E08F1C3E45FC00BB7007 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		9CEDF1D41C38C293005B68F1 /* 语言名称 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "语言名称"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CC1E0901C3E45FC00BB7007 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,9 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				9CBD63801C38113F00CFE386 /* CLSpeechSynthesizer */,
-				9CEDF1D41C38C293005B68F1 /* 语言名称 */,
+				9CC1E08F1C3E45FC00BB7007 /* AVFoundation.framework */,
 				9CBD636C1C3810EF00CFE386 /* AppDelegate.h */,
 				9CBD636D1C3810EF00CFE386 /* AppDelegate.m */,
+				9CEDF1D41C38C293005B68F1 /* 语言名称 */,
 				9CBD636F1C3810EF00CFE386 /* ViewController.h */,
 				9CBD63701C3810EF00CFE386 /* ViewController.m */,
 				9CBD63721C3810EF00CFE386 /* Main.storyboard */,
