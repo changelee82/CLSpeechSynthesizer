@@ -11,6 +11,7 @@
 
 使用方法
 ===============
+    导入库：AVFoundation.framework
     开启后台音频播放
     工程 -> Capabilities -> Background Mode  开启 Audio, AirPlay and Picture in Picture
     
